@@ -1,59 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vjezbanje</title>
+    <script>src="jquery-2.1.4.js"</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"</script>
+
+    <title>sweet alert</title>
 </head>
-<style>
-    body {
-        margin:0px;
-    }
-    #container {
-        width:990px;
-        background-color: #00bbee;
-        margin:0 auto;
-        border: 2px solid red;
-    }
-    #navbar ul {
-        list-style: none;
-    }
-    #navbar li {
-        display: inline;
-    }
-    #navbar li a {
-        text-decoration: none;
-        color: #11ff11;
-        margin: 3%;
-        border: 1px dotted orange;
-        padding-left: 4px;
-    }
-    #navbar li a:hover {
-        background-color: white;
-        color: green;
-    }
-    #navbar {
-        background-color: #eeeeee;
-        padding-top: 2px;
-        padding-bottom: 5px;
-        border: 1px solid yellow;
-    }
-    </style>
-    
-    <div id="container">
-      <div id="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="top.html">Top</a></li>
-          <li><strong><a href="free.html">FREE</a></strong></li>
-          <li><a href="photo.html">Photo</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-      <div id="content">
-        <p>Some sample text.
-        <p> 
-      </div>
-    </div>
+
+<body>
+<script>
+    import swal from 'sweetalert';
+
+swal("Hello world!");
+</script>
+
+
+
+
+
+
+    <button id="button-a">Sweet alert!</button>
+    <script>
+$('#button-a').click(function(){
+    swal("Hello world!");
+});
+ 
+</script>
+</body>
 </html>
