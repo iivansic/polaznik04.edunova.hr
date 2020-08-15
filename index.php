@@ -28,7 +28,7 @@ require_once 'konfiguracija.php';
       Prijava
     </button>
     <div class="row columns">
-      <a href="https://github.com/iivansic">Github link(ubacit)</a>
+      <a href="https://github.com/iivansic/polaznik04.edunova.hr">Github link</a>
     </div>
     
  </form>
