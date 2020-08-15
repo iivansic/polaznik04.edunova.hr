@@ -1,0 +1,110 @@
+
+    .translucent-form-overlay {
+        margin: auto;
+        max-width: 500px;
+        width: 100%;
+        background-color: rgba(54, 54, 54, 0.8);
+        padding: 20px;
+        color: #fefefe;
+        background-image: url(http://digitalresult.com/wp-content/uploads/2016/05/beautiful-anime-girl-wallpaper-27.jpeg);
+      }
+      
+      .translucent-form-overlay .columns.row {
+        display: block;
+      }
+      
+      .translucent-form-overlay h3, .translucent-form-overlay label {
+        color: #fefefe;
+      }
+      
+      .translucent-form-overlay input, .translucent-form-overlay select {
+        color: #8a8a8a;
+      }
+      
+      .translucent-form-overlay input::-webkit-input-placeholder {
+        color: #8a8a8a;
+      }
+      
+      .translucent-form-overlay input:-ms-input-placeholder {
+        color: #8a8a8a;
+      }
+      
+      .translucent-form-overlay input::placeholder {
+        color: #8a8a8a;
+      }
+      .koky{
+          background-image: url(https://www.pictureeuropa.com/wp-content/uploads/2019/09/4k-nature-wallpapers-ultra-hd-64-1920x1080.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
+      
+.card-user-container {
+  margin-bottom: 1rem;
+  background-color: #fefefe;
+  color: #0a0a0a;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 0;
+}
+
+.card-user-container .card-user-avatar .user-image {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 11.875rem;
+  height: 11.875rem;
+  padding: 0.9375rem;
+}
+
+.card-user-container .card-user-avatar .user-image:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-user-container .card-user-bio {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-user-container .card-user-bio .location {
+  display: inline-block;
+  margin: 0 0.9375rem;
+  color: #767676;
+  font-size: 0.875rem;
+}
+
+.card-user-container .card-user-bio .location-icon,
+.card-user-container .card-user-bio .location-text {
+  display: inline-block;
+  padding: 0 0.3125rem;
+}
+
+.card-user-container .card-user-social {
+  background: #e6e6e6;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-user-container .card-user-social ul {
+  display: inline-block;
+}
+
+.card-user-container .card-user-social ul li {
+  margin: 0 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.card-user-container .card-user-social ul li:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-user-container .card-user-button {
+  text-align: center;
+  padding: 1rem;
+}
+
