@@ -3,14 +3,12 @@ require_once 'konfiguracija.php';
 if(!isset($_SESSION['autoriziran'])){
     header('location:index.php');
 }
-?>
 
-<?php 
 if(isset($_POST['ime'])){
   require_once 'konfiguracija.php';
   $izraz=$veza->prepare('insert into radnik (ime,prezime,radnomjesto,slika,komentar) values (:ime,:prezime,:radnomjesto,:slika,:komentar)');
   $izraz->execute($_POST);
-  header('location: privatno.php');
+  header('location:privatno.php');
 }
 ?>
 <!doctype html>
@@ -55,9 +53,8 @@ if(isset($_POST['ime'])){
       <label>Komentar
         <textarea cols="30" rows="10" type="text" id="komentar" name="komentar"></textarea>
       </label>
-    <button onclick="return  confirm('Dodaj novog radnika')" type="submit" class="button expanded">
-      Unos radnika
-    </button>
+    <input onclick="return  confirm('Dodaj novog radnika')" type="submit" class="button expanded" value="Dodaj novog radnika"> 
+    </input>
  </form>
 </div>
 

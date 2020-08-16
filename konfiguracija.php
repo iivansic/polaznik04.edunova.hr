@@ -26,6 +26,27 @@ function elog($sto)
     print_r($sto);
     echo '<pre>';
 }
+// provjera forme
+function checkform()
+{
+	if (value of first field is or isn't something)
+	{
+		// something is wrong
+		alert('There is a problem with the first field');
+		return false;
+	}
+	else if (value of next field is or isn't something)
+	{
+		// something else is wrong
+		alert('There is a problem with...');
+		return false;
+	}
+	// If the script gets this far through all of your fields
+    // without problems, it's ok and you can submit the form
+    // <form action="script.cgi" onSubmit="return checkform()">
 
 
+
+	return true;
+}
 

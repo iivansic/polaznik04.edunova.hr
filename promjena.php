@@ -3,9 +3,6 @@ require_once 'konfiguracija.php';
 if(!isset($_SESSION['autoriziran'])){
     header('location:index.php');
 }
-?>
-
-<?php 
 require_once 'konfiguracija.php';
 if(isset($_POST['ime'])){
 
@@ -70,9 +67,9 @@ if(isset($_GET['id'])){
         <textarea cols="30" rows="10" type="text" id="komentar" name="komentar"><?php echo $radnik->komentar ?>" </textarea>
       </label>
     <input type="hidden" name='id' value="<?php echo $radnik->id ?>">
-    <button onclick="return  confirm('Izmeni radnika')" type="submit" class="button expanded">
-      Izmjeni podatke
-    </button>
+    <input onclick="return  confirm('Izmeni radnika')" type="submit" class="button expanded" value="Izmjeni podatke">
+     
+    </input>
  </form>
 </div>
 
