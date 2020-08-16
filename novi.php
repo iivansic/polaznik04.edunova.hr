@@ -31,17 +31,17 @@ if(isset($_POST['ime'])){
     <h3>Dodajte novog radnika</h3>
     <div class="row columns">
       <label>Ime
-        <input type="text" id="ime" name="ime" >
+        <input type="text" id="ime" name="ime" required >
       </label>
     </div>
     <div class="row columns">
       <label>Prezime
-        <input type="text" id="prezime" name="prezime">
+        <input type="text" id="prezime" name="prezime" required>
       </label>
       </div>
       <div class="row columns">
       <label>Radno mjesto
-        <input type="text" id="radnomjesto" name="radnomjesto">
+        <input type="text" id="radnomjesto" name="radnomjesto" required>
       </label>
       </div>
       <div class="row columns">
