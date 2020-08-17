@@ -14,4 +14,8 @@ Obavezni dio:
 11.	Na privatnom dijelu aplikacije postaviti link na ERA dijagram
  
 
+Napredni dio:
+1.	Aplikacija ima metapodatke prema http://ogp.me/
+2.	Aplikacija ima favicon-e kreirane pomoću http://www.favicon-generator.org/
+3.	Za unos i promjenu u bazu potrebno je napraviti kontrole svih unosnih podataka
 

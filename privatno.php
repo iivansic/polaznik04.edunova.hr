@@ -6,6 +6,7 @@ if(!isset($_SESSION['autoriziran'])){
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
+<html prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="utf-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -13,6 +14,19 @@ if(!isset($_SESSION['autoriziran'])){
     <title>Spisak radnika</title>
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="Moj app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https:/http://polaznik04.edunova.hr/privatno.php" />
+
   </head>
   <script type="text/javascript">
 <!--

@@ -26,6 +26,7 @@ if(isset($_GET['id'])){
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
+<html prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -33,6 +34,19 @@ if(isset($_GET['id'])){
     <title>Izmjena podataka radnika</title>
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="Moj app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https:/http://polaznik04.edunova.hr/promjena.php" />
+
   </head>
 <body class="koky">
 <div  class="card-user-button">
@@ -44,17 +58,17 @@ if(isset($_GET['id'])){
     <h3>Izmjeni podatke o radniku</h3>
     <div class="row columns">
       <label>Ime
-        <input type="text" id="ime" name="ime" value="<?php echo $radnik->ime ?>" >
+        <input type="text" id="ime" name="ime" value="<?php echo $radnik->ime ?>"required >
       </label>
     </div>
     <div class="row columns">
       <label>Prezime
-        <input type="text" id="prezime" name="prezime" value="<?php echo $radnik->prezime ?>">
+        <input type="text" id="prezime" name="prezime" value="<?php echo $radnik->prezime ?>" required>
       </label>
       </div>
       <div class="row columns">
       <label>Radno mjesto
-        <input type="text" id="radnomjesto" name="radnomjesto" value="<?php echo $radnik->radnomjesto ?>">
+        <input type="text" id="radnomjesto" name="radnomjesto" value="<?php echo $radnik->radnomjesto ?>" required>
       </label>
       </div>
       <div class="row columns">
